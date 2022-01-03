@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Google Translate</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="left">
+                <div>
+                    <div class="bars" onclick="load()">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                    <div class="content" id="leftSlide">
+                        <div class="top">
+                            <div class="title mr">
+                                <a href="#"><span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span> <a href="#" class="t">Translate</a>
+                            </div>
+
+                            <ul class="ab a">
+                                <li><a href="#">About google translate</a></li>
+                            </ul>
+                        </div>
+
+                        <ul class="ab">
+                            <li><a href="#">Privacy & Terms</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Send feedback</a></li>
+                            <li><a href="#">About Google</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="title">
+                    <span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span> <a href="#" class="t">Translate</a>
+                </div>
+            </div>
+
+            <div class="right">
+                <div>
+                    <div class="dots" onclick="drop()">
+                        <div class="line">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+    
+                        <div class="line">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+    
+                        <div class="line">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                    <div class="apps" id="appsId">
+                        <div class="apps2">
+                            <div class="app">
+                                <div class="img">
+                                    <div class="pic">M</div>
+                                </div>
+                                <div class="name">
+                                    Account
+                                </div>
+                            </div>
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="fab fa-google"></i>
+                                </div>
+                                <div class="name">
+                                    Search
+                                </div>
+                            </div>
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="fab fa-google-plus"></i>
+                                </div>
+                                <div class="name">
+                                    Google+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="apps2">
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="fab fa-google-play"></i>
+                                </div>
+                                <div class="name">
+                                    Play
+                                </div>
+                            </div>
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="fab fa-youtube"></i>
+                                </div>
+                                <div class="name">
+                                    YouTube
+                                </div>
+                            </div>
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="far fa-envelope"></i>
+                                </div>
+                                <div class="name">
+                                    Gmail
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="apps2">
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="fas fa-newspaper"></i>
+                                </div>
+                                <div class="name">
+                                    News
+                                </div>
+                            </div>
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="fas fa-id-card-alt"></i>
+                                </div>
+                                <div class="name">
+                                    Contact
+                                </div>
+                            </div>
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="fab fa-meetup"></i>
+                                </div>
+                                <div class="name">
+                                    Meet
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="apps2">
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="fab fa-google-drive"></i>
+                                </div>
+                                <div class="name">
+                                    Drive
+                                </div>
+                            </div>
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="fas fa-calendar"></i>
+                                </div>
+                                <div class="name">
+                                    Calendar
+                                </div>
+                            </div>
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="far fa-envelope"></i>
+                                </div>
+                                <div class="name">
+                                    Gmail
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="apps2">
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="fas fa-globe-asia"></i>
+                                </div>
+                                <div class="name">
+                                    Translate
+                                </div>
+                            </div>
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="fas fa-images"></i>
+                                </div>
+                                <div class="name">
+                                    Photos
+                                </div>
+                            </div>
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="fas fa-comments"></i>
+                                </div>
+                                <div class="name">
+                                    Chat
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class="seperate">
+
+                        <div class="apps2">
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="fas fa-globe-asia"></i>
+                                </div>
+                                <div class="name">
+                                    Earth
+                                </div>
+                            </div>
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                                <div class="name">
+                                    Books
+                                </div>
+                            </div>
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="fas fa-square-root-alt"></i>
+                                </div>
+                                <div class="name">
+                                    Classroom
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="apps2">
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="fab fa-slideshare"></i>
+                                </div>
+                                <div class="name">
+                                    Slide
+                                </div>
+                            </div>
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="fas fa-file-word"></i>
+                                </div>
+                                <div class="name">
+                                    Docs
+                                </div>
+                            </div>
+                            <div class="app">
+                                <div class="logo">
+                                    <i class="fab fa-facebook"></i>
+                                </div>
+                                <div class="name">
+                                    Collections
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="apps2">
+                            <a href="#">
+                                <button>More from Google</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="pic" onclick="dropAcount()">M</div>
+                    <div class="acount" id="account">
+                        <div class="all">
+                            <div class="pic size">M
+                                <div class="cam"><i class="fas fa-camera"></i></div>
+                            </div>
+
+                            <div class="n-e">
+                                <p><b>Muhammed</b></p>
+                                <p>Email@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="bringBtn">
+                            <div class="btn">
+                                <a href="#">
+                                    <button>Manage your Google Acount</button>
+                                </a>
+                            </div>
+
+                            <div>
+                                <a href="#" class="spend">
+                                    <button class="s">
+                                        <i class="fas fa-user-plus"></i> 
+                                        Add another account
+                                    </button>
+                                </a>
+                            </div>
+
+                            <div class="sign">
+                                <a href="#">
+                                    <button>Sign out</button>
+                                </a>
+                            </div>
+
+                            <div class="link">
+                                <a href="#">Privacy Policy</a> <div class="d"></div> <a href="#">Terms of Service</a>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="container">
+            <div class="buttons">
+                <button class="tabLink" onclick="content(event, 'content1')"><i class="fas fa-quote-left"></i> Text</button>
+                <button class="tabLink" onclick="content(event, 'content2')"><i class="fas fa-file-alt"></i> Documents</button>
+            </div>
+
+            <div class="co">
+                <div class="langs">
+                    <button class="detect">detect language</button>
+                    <button>english</button>
+                    <button>arabic</button>
+                    <button>spanish</button>
+                    <button class="arrow"><i class="fas fa-chevron-down"></i></button>
+                    
+                    <button><i class="fas fa-exchange-alt"></i></button>
+
+                    <button>english</button>
+                    <button>arabic</button>
+                    <button>spanish</button>
+                    <button class="arrow"><i class="fas fa-chevron-down"></i></button>
+                </div>
+            </div>
+
+            <div id="content1" class="tabContent">
+                <div class="one">
+                    <textarea name="text" id="input" cols="30" rows="10"></textarea>
+                    <div class="mt">
+                        <div class="mic">
+                            <i class="fas fa-microphone-alt"></i>
+                        </div>
+                        <div class="txt">
+                            <span>0 / 5,000</span>
+                            <i class="fas fa-pen"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="two">
+                    Translation
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="center">
+            <div class="cont">
+                <div  class="cyrcle"><i class="fas fa-history"></i></div>
+                <div class="tx">History</div>
+            </div>
+
+            <div class="cont">
+                <div  class="cyrcle"><i class="fas fa-star"></i></div>
+                <div class="tx">Saved</div>
+            </div>
+
+            <div class="cont">
+                <div  class="cyrcle"><i class="fas fa-users"></i></div>
+                <div class="tx">Contribute</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
